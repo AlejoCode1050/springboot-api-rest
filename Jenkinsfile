@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven 3.9.9'  // à adapter selon le nom que tu as défini dans Jenkins
-        jdk 'Java 17'  git      // à adapter selon ton installation Jenkins
+        jdk 'Java 17'    // à adapter selon ton installation Jenkins
     }
 
     environment {
